@@ -1,0 +1,80 @@
+/* navigation */
+#navbar {
+    flex-direction: column;
+}
+
+#navbar ul li a {
+    padding: 6px;
+}
+
+
+
+/* hone section */
+#home {
+    height: 370px;
+    padding-top: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#home::before {
+    height: 480px;
+}
+
+#home p {
+    font-size: 15px;
+}
+
+
+
+/* services section */
+#services {
+    flex-direction: column;
+}
+
+
+
+
+/* clients section */
+#clients img {
+    width: 50px;
+    height: 50px;
+
+}
+
+
+
+
+/* contact section */
+#contact-box form {
+    width: 80%;
+}
+
+
+footer {
+    position: relative;
+    bottom: -5px;
+}
+
+.center {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+#client-section::before {
+    max-height: 200px;
+}
+
+#contact::before {
+    max-height: 700px;
+    padding-block: 7.5rem;
+}
+
+
+
+
+/* utility classes */
+.h-primary {
+    font-size: 20px;
+}
